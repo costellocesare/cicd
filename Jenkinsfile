@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('inicializar') {
             steps {
-                sh "git clone "
+                sh "git clone https://github.com/costellocesare/cicd"
             }
         }
         stage('Build') {
